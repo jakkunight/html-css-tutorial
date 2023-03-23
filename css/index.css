@@ -1,0 +1,25 @@
+/* Aquí iluminamos los logos: */
+.logo{
+	width: 12pt;
+	height: 12pt;
+	backdrop-filter: blur(1pt);
+}
+.cyan-light{
+	filter: drop-shadow(0px, 0px, 8px, #00FFEE);
+}
+.yellow-light{
+	filter: drop-shadow(0px, 0px, 8px, #EEFF00);
+}
+.blue-light{
+	filter: drop-shadow(0px, 0px, 8px, #0088FF);
+}
+.silver-light{
+	filter: drop-shadow(0px, 0px, 8px, #CCCCCC);
+}
+.cyan-light{
+	filter: drop-shadow(0px, 0px, 8px, #00FFEE);
+}
+body{
+	color: #CCCCCC;
+	background: linear-gradient(to left, rgba(49, 118, 222, 1), rgba(0, 0, 0, 1), rgba(232, 193, 37, 1)), black;
+}
