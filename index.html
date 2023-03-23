@@ -1,0 +1,71 @@
+<!-- 
+	Esto es un comentario en HTML.
+	A mí me sirvieron mucho cuando estudiaba HTML.
+	Recuerdo que casi me aplazé en el examen por no cerrar bien un <div> y por usar <thead>.
+	Espero que no les pase lo mismo ;)
+-->
+<!-- El primer elemento a definir de nuestra web es... NUESTRA MISMA WEB -->
+<!-- Para ello usamos la etiqueta "html" de la siguiente forma: -->
+<html>
+	<!-- 
+		Ahora definimos una sección para los metadatos de nuestra página web (head), como el título (title), el set de caracters a utilizar (meta),
+		los estilos de CSS que hemos definido (link) entre otros datos más que pueden encontrar en las referencias de W3Schools.
+	-->
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="./css/index.css" />
+		<title>
+			Jakku Night
+		</title>
+	</head>
+	<!--
+		Ahora vamos a definir otra sección con los datos y estructura propias del sitio web (body):
+	-->
+	<body>
+		<!--
+			Ahora voy a agrupar los siguientes elementos de mi página web dentro de un "div".
+			En este caso le estoy dando las clases (class) "main" y "banner", que luego definiremos en nuestro archivo de CSS.
+		-->
+		<div class="banner" >
+			<!--
+				Aquí va el contenido de mi banner.
+			-->
+			<div id="content" >
+				<!--
+					Las etiquetas "h1" al "h6" definen títulos y encabezados de secciones de la página.
+					Cuanto más alto el número, más pequeño será el tamaño del encabezado.
+				-->
+				<h1>
+					JavaScript Ecosystem Crash Courses
+				<h1>
+				<!--
+					Este encabezado va a estar en cursiva, por lo que debemos añadir dicha clase también:
+				-->
+				<h3 class="kursive" >
+					by Jakku Night
+				<h3>
+			</div>
+			<!--
+				Aquí van unos logotipos animados con puro CSS. Nada de JavaScript.
+			-->
+			<div id="graphics" >
+				<img class="logo extern" alt="extern" >
+				<img class="logo inner" alt="inner" >
+			</div>
+		</div>
+		<div id="docs" >
+			<div id="" >
+			</div>
+		</div>
+		<div id="footer" >
+			<h4>
+				Social Media:
+			</h4>
+			<ul>
+				<li>
+					<a href="https://github.com/jakkunight" >GitHub</a>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>
