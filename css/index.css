@@ -21,5 +21,5 @@
 }
 body{
 	color: #CCCCCC;
-	background: linear-gradient(to left, rgba(49, 118, 222, 1), rgba(0, 0, 0, 1), rgba(232, 193, 37, 1)), black;
+	background: linear-gradient(30deg, rgba(49, 118, 222, 1), rgba(0, 0, 0, 1), rgba(232, 193, 37, 1)), black;
 }
